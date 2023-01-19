@@ -17,6 +17,12 @@ Change package.json script called based on the specific file to run with the tsc
 "start"
 ```
 
+or use npx command 
+
+```bash
+npx ts-node concepts/enums.ts
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first

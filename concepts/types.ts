@@ -42,7 +42,7 @@ let employee = {} as Employee;
 employee.name = "Max";
 employee.age = 27;
 
-const GetEmployeeCode = (name: string): number => {
+const GetEmployeeCode = (name: string): number | void => {
   if (name) {
     return 200;
   }

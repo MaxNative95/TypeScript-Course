@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc concepts/types.ts --outdir dist/ && node dist/" 
+    "start": "tsc concepts/enums.ts --outdir dist/ && node dist/enums"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }

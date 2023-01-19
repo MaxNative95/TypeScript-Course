@@ -1,33 +1,34 @@
-var message = "Hello World";
-var isSenior = true;
-var person = { id: "1029938746552" };
-var numbers = [10, 56, 80, 120];
-var nestedPerson = [
+"use strict";
+let message = "Hello World";
+let isSenior = true;
+let person = { id: "1029938746552" };
+let numbers = [10, 56, 80, 120];
+let nestedPerson = [
     { id: "123" },
     { id: "9000" },
     { id: "7825" },
 ];
-var mixed = ["hola", 123, true];
-var saludar = function (message) {
+let mixed = ["hola", 123, true];
+const saludar = (message) => {
     console.log(message);
 };
 saludar("HIII");
-var money = 100;
-var car = "BMW";
-var apiResponse = 500;
+let money = 100;
+let car = "BMW";
+let apiResponse = 500;
 apiResponse.toString();
-var numberOfClients = "569";
-var month = "January";
+let numberOfClients = "569";
+let month = "January";
 month = 1233;
-var myDinamicVar = 100;
+const myDinamicVar = 100;
 myDinamicVar = "Hello";
-var employee = {};
+let employee = {};
 employee.name = "Max";
 employee.age = 27;
-var GetEmployeeCode = function (name) {
+const GetEmployeeCode = (name) => {
     if (name) {
         return 200;
     }
 };
-var employeeCode = GetEmployeeCode("Steve");
+let employeeCode = GetEmployeeCode("Steve");
 console.log(typeof employeeCode); // number
